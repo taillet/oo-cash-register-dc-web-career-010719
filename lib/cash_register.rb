@@ -16,7 +16,7 @@ class CashRegister
   end
   
   def apply_discount
-    if @discount != 0
+    if self.discount != 0
    (self.total.to_f*(1.0-(self.discount.to_f/100))).to_f
  end
   end
