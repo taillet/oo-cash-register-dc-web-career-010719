@@ -26,6 +26,7 @@ class CashRegister
   end
   
   def items
+    @@all
   end
 
   def void_last_transaction
