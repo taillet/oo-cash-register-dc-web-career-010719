@@ -23,6 +23,9 @@ class CashRegister
       "There is no discount to apply."
    end
   end
+  
+  def items
+end
 
   def void_last_transaction
   end
