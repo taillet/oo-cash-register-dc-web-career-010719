@@ -27,7 +27,6 @@ class CashRegister
   
   def items
     @@all
-binding.pry
 end
 
   def void_last_transaction
