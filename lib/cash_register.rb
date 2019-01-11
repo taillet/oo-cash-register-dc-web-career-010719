@@ -17,7 +17,6 @@ class CashRegister
     @@all << title
   end
   end
-  end
   
   def apply_discount
     if self.discount != 0
